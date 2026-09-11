@@ -1,5 +1,5 @@
 {
-  "name": "entrega2",
+  "name": "employability-platform",
   "version": "1.0.0",
   "main": "dist/server.js",
   "scripts": {
@@ -9,10 +9,19 @@
     "seed": "node --loader ts-node/esm src/seed/seed.ts",
     "db:sync": "node --loader ts-node/esm src/scripts/sync.ts"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "express",
+    "typescript",
+    "postgresql",
+    "sequelize",
+    "nextjs",
+    "rest-api",
+    "docker",
+    "swagger"
+  ],
+  "author": "Luis David Ducuara",
   "license": "ISC",
-  "description": "",
+  "description": "Full-stack job vacancy and application platform built with Express, TypeScript, PostgreSQL, and Next.js.",
   "type": "module",
   "dependencies": {
     "bcryptjs": "^3.0.2",
